@@ -1,0 +1,151 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Body and general layout */
+body, html {
+    height: 100%;
+    background: #f9fbfd !important; /* very light blueish white */
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Chat container spacing */
+.chat {
+    margin-top: 50px !important;
+}
+
+/* Card styling */
+.card {
+    height: 600px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05) !important;
+    background: #ffffff !important;
+}
+
+/* Header */
+.msg_head {
+    background: #d0f0fc !important; /* soft blue */
+    color: #0277bd !important;       /* darker blue text */
+    border-radius: 20px 20px 0 0 !important;
+    padding: 15px !important;
+    font-weight: 600 !important;
+}
+
+/* User image and online dot */
+.img_cont {
+    position: relative !important;
+}
+.user_img {
+    width: 50px !important;
+    height: 50px !important;
+    border: 2px solid #ffffff !important;
+}
+.online_icon {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    width: 14px !important;
+    height: 14px !important;
+    background: #03a9f4 !important; /* bluish online dot */
+    border-radius: 50% !important;
+    border: 2px solid white !important;
+}
+
+/* User info */
+.user_info span {
+    font-weight: 600 !important;
+    color: #0277bd !important;
+}
+.user_info p {
+    font-size: 12px !important;
+    margin: 0 !important;
+    color: #555 !important;
+}
+
+/* Chat area */
+.msg_card_body {
+    overflow-y: auto !important;
+    padding: 20px !important;
+    height: 450px !important;
+    background: #f5faff !important; /* very light blue */
+}
+
+/* Chat bubbles */
+.msg_cotainer, .msg_cotainer_send {
+    border-radius: 18px !important;
+    padding: 12px 18px !important;
+    position: relative !important;
+    max-width: 75% !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03) !important;
+    font-size: 14px !important;
+}
+
+.msg_cotainer {
+    background-color: #ffffff !important;
+    margin-left: 10px !important;
+    color: #333 !important;
+}
+
+.msg_cotainer_send {
+    background-color: #d0f0fc !important; /* soft blue */
+    color: #01579b !important; /* darker blue text */
+    margin-right: 10px !important;
+}
+
+.msg_time, .msg_time_send {
+    font-size: 10px !important;
+    color: #777 !important;
+    margin-left: 10px !important;
+}
+
+/* Footer/input */
+.card-footer {
+    background: #f9fbfd !important;
+    border-radius: 0 0 20px 20px !important;
+    padding: 10px 15px !important;
+}
+
+.type_msg {
+    border-radius: 20px !important;
+    /* border: 1px solid #c0dff2 !important;  */
+    padding: 10px 15px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+
+
+#messageArea {
+    background: #f9fbfd !important; /* light grayish background for the form */
+    padding: 5px 10px !important;
+    border-radius: 30px !important;
+}
+
+#messageArea .type_msg {
+    background: #ffffff !important; /* white input box */
+    color: #333 !important;
+    border: 1px solid #c0dff2 !important;
+}
+
+
+
+
+.send_btn {
+    background: #b3e5fc !important; /* light cyan */
+    color: #01579b !important;
+    border-radius: 50% !important;
+    padding: 10px 15px !important;
+    cursor: pointer !important;
+    border: none !important; /* remove any default border */
+}
+
+.send_btn:hover {
+    background: #81d4fa !important;
+}
+
+/* Message images */
+.img_cont_msg img, .user_img_msg {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+}
