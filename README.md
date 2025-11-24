@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medical-Chatbot
 
 A Retrieval-Augmented Generation (RAG) based medical question-answering system built with Flask, LangChain, Pinecone, and HuggingFace embeddings.
